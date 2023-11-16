@@ -1,21 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- Nagłowek header głownie zawiera logo, nawigację, złoony nagłowek -->
-    <header>
-      <a href="/">Logo</a>
-      <ul>
-        <li>Kontakt</li>
-        <li>o mnie</li>
-      </ul>
-      <div>E-mail</div>
-    </header>
-    <!-- stopka (ostatnia część strony) -->
-    <footer></footer>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        </head>
+        <body>
+        <!-- Nagłowek header głownie zawiera logo, nawigację, złoony nagłowek -->
+        <header>
+        <a href="/">Logo</a>
+        <nav>
+            <!-- Nav uywamy do nawigacji górnej -->
+            <ul>
+            <li>Kontakt</li>
+            <li>o mnie</li>
+            </ul>
+        </nav>
+
+        <div>E-mail</div>
+        </header>
+
+        <main>
+        <!-- main-główna trść strony,uzywamy 1 raz, tutaj zawiera się cała strona, oprócz heater czyli MENU i footer. -->
+        <article>
+            <h2>do artykółw</h2>
+            <img src="" alt="zjecie kompa"/>
+            <a>al wypuscioło nowy algorytm</p>
+        </article>
+        <h2>wybrane przepisy dla ciebie</h2>
+
+        <ul>
+            <li>Kurczak dla ciebie</li>
+            <li>Tortilla</li>
+            <li>ryba z niemniakami</li>
+
+        </ul>
+        </main>
+
+        <table>
+            <!-- Table określa całą tabelę, pudełko na tr th -->
+            <!-- tr-wiersz tabeli tz. ROW
+            td- komórka tabeli -->
+            <thead>
+                <!-- Thead-nagłówek tabeli -->
+                <!-- tfoot-stopka tabeli 
+                -->
+                    <tr>
+                    <th>Numer Trasy</th>
+                    <th>trasa</th>
+                    <th>Czas podróyz</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>peron 111</td>
+        <td>Katowice-Warszawa</td>
+        <td>3 godziny</td>
+        </tr>
+    <tr>
+    <td>peron 333</td>
+    <td>KAtowice-Gdańsk</td>
+    <td>5 godzin</td>
+
+    </tr>
+
+    <tr>
+    <td>Peron 2222</td>
+    <td>Katowice-Poznań</td>
+    <td>4 godziny</td>
+
+    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Czas uległ zmianie</td>
+        </tr>
+    </tfoot>
+
+        </table>
+
+        <!-- znacznik dl- (description list) kontenr na liste par i elementów
+        dt- tagowanie jakogos terminu
+        dd-opis danego terminu -->
+    <dl>
+        <dt>#JPG</dt>
+        <dd>loremipsum</dd>
+
+        <dt>#Webp</dt>
+        <dd>lorem dfsdcds</dd>
+
+        <dt><#SVG</dt>
+        <dd>jsdbfjsdbf</dd>
+
+        </dl>
+        <!-- span-jest to uniwersalny pojemnik na mala zawartosc textowa i jest on INLINE(NIE MOZNA UMIESCIC DIV) -->
+        <p>glowna nagrode wygral <span>Tomek</span></p>
+
+        <!-- pre- preformatted- ten tag slozy do definiowania texty, ktory powinien zostac wyswietlony w dokladnie taki sposob jak piszemy -->
+        <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet omnis accusantium vel dicta ut libero, sit molestiae sint aut in voluptas 
+        quasi debitis fuga ea obcaecati ipsam doloremque vitae ullam qui quo natus, corrupti ab inventore voluptate. Corporis, quo exercitationem!
+        </pre>
+    sup-index gorny
+    sub-index dolny
+        <p>dzialka 1500m <sup>2</sup></p>
+        <p>a<sub>1</sub>+ a<sub>2</sub>+X<sub>2</sub></p>
+
+        <!-- adress-znacznik slozy do zamieszczania adresu -->
+        <address>
+            Warszawa,<br />
+            ul. wojeowdzka
+            <a href="mailto:goit@wp.pl">goit@wp.pl</a>
+
+        </address>
+
+        <!-- Strong oraz B(bold) -->
+    <p>Moj kod jest <strong>super</strong></p>
+
+    <!-- time-glownie na potrzeby pozycjonowania -->
+    <p>
+    <time datetime="2019-12-14">14 grodnia 2019 roku</time>
+    </p>
+
+    <p><i>przechylenie textu</i></p>
+
+    <p><em>podkreslenie</em></p>
+    <video
+        src=""
+        poster=""
+        width=""
+        controls
+        autoplay
+        loop
+        preload="auto"
+        ></video>
+
+
+
+    <footer>
+        <!-- znaki specjalne ze google kopiujemy -->
+        <p>2023 &#169 </p> 
+      <!-- stopka (ostatnia część strony) -->
+    </footer>
   </body>
 </html>
